@@ -19,7 +19,10 @@
     <header class="header" id="header">
         <div class="header__content">
             <nav class="header__nav">
-                <h2 style="color: #00adee;">Clinica x</h2>
+                <div>
+                    <h2 style="color: #00adee; font-weight: 900;">Clinica x</h2>
+                </div>
+                <div>
                 <ul class="nav__info">
                     <li>
                         <a href="#header">Nosotros</a>
@@ -31,13 +34,14 @@
                         <a href="#footer">Información</a>
                     </li>
                 </ul>
+                </div>
                 <div class="nav__auth">
                     <a href="#">Inicia Sesión</a>
                     <a href="#">Crear una cuenta!</a>
                 </div>
             </nav>
             <div class="header__information">
-                sdad
+                info del sitio
             </div>
         </div>
     </header>
