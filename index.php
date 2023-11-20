@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Citas Médicas | Clinica Mia</title>
+    <title>Citas Médicas | Clinica London</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,39 +16,48 @@
 </head>
 
 <body class="body">
-    <header class="header" id="header">
-        <div class="header__content">
-            <nav class="header__nav">
-                <div>
-                    <h2 style="color: #00adee; font-weight: 900;">Clinica x</h2>
-                </div>
-                <div>
-                <ul class="nav__info">
-                    <li>
-                        <a href="#header">Nosotros</a>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4">
+            <a class="navbar-brand" href="#">Clinica X</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse derecha" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#header">NOSOTROS</a>
                     </li>
-                    <li>
-                        <a href="#main">Servicios</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#main">SERVICIOS</a>
                     </li>
-                    <li>
-                        <a href="#footer">Información</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">CONTACTO</a>
                     </li>
                 </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-2">
+                        <a class="btn btn-success" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="#">Crear cuenta</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="imagen text-white">
+            <div class="imagen__info">
+                <div class="text-center">
+                    <h1>CITAS MÉDICAS</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab a autem velit magni, aliquam assumenda vel nemo ut dolorum quam.</p>
                 </div>
-                <div class="nav__auth">
-                    <a href="#">Inicia Sesión</a>
-                    <a href="#">Crear una cuenta!</a>
-                </div>
-            </nav>
-            <div class="header__information">
-                info del sitio
             </div>
         </div>
+
     </header>
     <main id="main" class="main">
 
     </main>
-    <footer id="footer" class="footer">
+    <footer id="contacto" class="footer">
         <!-- place footer here -->
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
