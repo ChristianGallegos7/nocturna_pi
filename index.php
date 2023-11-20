@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Citas Médicas | Clinica Mia</title>
+    <title>Citas Médicas | Clinica London</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,28 +17,31 @@
 
 <body class="body">
     <header class="header" id="header">
-        <div class="header__content">
-            <nav class="header__nav">
-                <h2 style="color: #00adee;">Clinica x</h2>
-                <ul class="nav__info">
-                    <li>
-                        <a href="#header">Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="#main">Servicios</a>
-                    </li>
-                    <li>
-                        <a href="#footer">Información</a>
-                    </li>
-                </ul>
-                <div class="nav__auth">
-                    <a href="#">Inicia Sesión</a>
-                    <a href="#">Crear una cuenta!</a>
-                </div>
-            </nav>
-            <div class="header__information">
-                sdad
+        <nav class="nav">
+            <h2 style="color: #00adee;font-weight: 900;">Clinica X</h2>
+            <ul class="nav__list">
+                <li>
+                    <a href="#header">Nosotros</a>
+                </li>
+                <li>
+                    <a href="#main">Servicios</a>
+                </li>
+                <li>
+                    <a href="#footer">Información</a>
+                </li>
+            </ul>
+            <div class="nav__auth">
+                <li>
+                    <a href="#" class="btn btn-success text-white">Inicia Sesión</a>
+
+                </li>
+                <li>
+                    <a href="#" class="btn btn-primary text-white">Crear una cuenta!</a>
+                </li>
             </div>
+        </nav>
+        <div class="header__information">
+            sdad
         </div>
     </header>
     <main id="main" class="main">
