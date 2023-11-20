@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Monserrat';
+}
 
 .derecha{
     display: flex;
@@ -17,6 +20,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    opacity: 0.9;
+
 }
 
 .imagen__info {
@@ -25,4 +30,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.imagen__info h1{
+    color: #0B5ED7;
+    font-weight: 900;
+}
+
+.main{
+    background-color: #0B5ED7;
+    height: 100vh;
 }

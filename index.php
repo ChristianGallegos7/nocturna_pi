@@ -47,15 +47,23 @@
         <div class="imagen text-white">
             <div class="imagen__info">
                 <div class="text-center">
-                    <h1>CITAS MÉDICAS</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab a autem velit magni, aliquam assumenda vel nemo ut dolorum quam.</p>
+                    <h1 class="">CITAS MÉDICAS</h1>
+                    <h2>El mejor servicio de Medicina en la Ciudad de Quito.</h2>
                 </div>
             </div>
         </div>
 
     </header>
     <main id="main" class="main">
-
+        <h1>Nuestros Servicios</h1>
+        <div class="servi d-flex justify-content-between p-5">
+            <div class="imagenes__servicios">
+                <h1>img servicios</h1>
+            </div>
+            <div class="info__servicios">
+                <h1>INFO SERVICIOS</h1>
+            </div>
+        </div>
     </main>
     <footer id="contacto" class="footer">
         <!-- place footer here -->
