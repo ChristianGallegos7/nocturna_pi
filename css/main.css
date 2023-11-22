@@ -143,6 +143,10 @@ h6 {
     padding: 12px 32px;
 }
 
+.cuenta:hover{
+    background-color: #077b6d;
+}
+
 .main__section {
     height: 100vh;
     width: 100%;
@@ -213,11 +217,33 @@ h6 {
     font-weight: 700;
 }
 
-.contacto {
+.footer {
     width: 100%;
-    height: 100vh;
+    height: 70px;
     background-image: url('../images/banner-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__container__footer {
+    width: 50%;
+}
+
+.nav__footer {
+    height: auto;
+}
+
+.nav__list__footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__list__footer li a:hover {
+    color: rgba(4, 198, 247, 0.918);
+
 }
