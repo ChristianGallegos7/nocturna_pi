@@ -148,6 +148,9 @@ h6 {
     background-color: #15E4D0;
     border-radius: 20px;
 }
+.nav__list .boton:hover{
+    color: white;
+}
 
 .auth {
     padding: 8px 10px;
