@@ -10,6 +10,10 @@
     list-style: none;
 }
 
+span{
+    color: #19e9d9;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -99,8 +103,21 @@ h6 {
     display: flex;
 }
 
+.inicio{
+    width: 400px;
+    justify-content: center;
+}
+
 .nav__list li {
     margin-right: 16px;
+}
+
+.inicio .center{
+    margin-left: 7rem;
+}
+
+.inicio .center:hover{
+    border-bottom: 5px solid white;
 }
 
 .nav__list li a:hover {
