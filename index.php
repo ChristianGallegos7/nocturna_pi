@@ -1,7 +1,5 @@
 <?php 
-    //añade el archivo para usar la funcion del template
-    require "includes/funciones.php";
-    incluirTemplate('header');
+     include("includes/templates/header.php");
 ?>
 
     <main class="main__section" id="main" class="animate__animated animate__fadeIn">
@@ -16,15 +14,15 @@
                 <div class="especialidades__images">
                     <div class="corazon">
                         <h3>Corazón</h3>
-                        <img src="/build/images/icon-5.png" class="esp esp_corazon" alt="Especialidad 1">
+                        <img src="http://localhost/dashboard/n/images/icon-5.png" class="esp esp_corazon" alt="Especialidad 1">
                     </div>
                     <div class="fracturas">
                         <h3>Fracturas</h3>
-                        <img src="/build/images/icon-4.png" class="esp esp_fracturas" alt="Especialidad 2">
+                        <img src="http://localhost/dashboard/n/images/icon-4.png" class="esp esp_fracturas" alt="Especialidad 2">
                     </div>
                     <div class="examenes">
                         <h3>Examenes</h3>
-                        <img src="/build/images/icon-6.png" class="esp esp_examenes" alt="Especialidad 3">
+                        <img src="http://localhost/dashboard/n/images/icon-6.png" class="esp esp_examenes" alt="Especialidad 3">
                     </div>
                 </div>
             </div>
@@ -32,7 +30,7 @@
     </main>
 
 <?php
-   incluirTemplate('footer');
-   ?>
+   
+    include("includes/templates/footer.php");
 ?>
 
