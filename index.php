@@ -1,5 +1,9 @@
 <?php 
+<<<<<<< HEAD
     include('./includes/templates/header.php')
+=======
+     include("includes/templates/header.php");
+>>>>>>> ba1fb13101d01593417fea933cb23631e3f0d059
 ?>
 
     <main class="main__section" id="main" class="animate__animated animate__fadeIn">
@@ -14,6 +18,7 @@
                 <div class="especialidades__images">
                     <div class="corazon">
                         <h3>Corazón</h3>
+<<<<<<< HEAD
                         <img src="./images/icon-5.png" class="esp esp_corazon" alt="Especialidad 1">
                     </div>
                     <div class="fracturas">
@@ -23,6 +28,17 @@
                     <div class="examenes">
                         <h3>Examenes</h3>
                         <img src="./images/icon-6.png" class="esp esp_examenes" alt="Especialidad 3">
+=======
+                        <img src="http://localhost/dashboard/n/images/icon-5.png" class="esp esp_corazon" alt="Especialidad 1">
+                    </div>
+                    <div class="fracturas">
+                        <h3>Fracturas</h3>
+                        <img src="http://localhost/dashboard/n/images/icon-4.png" class="esp esp_fracturas" alt="Especialidad 2">
+                    </div>
+                    <div class="examenes">
+                        <h3>Examenes</h3>
+                        <img src="http://localhost/dashboard/n/images/icon-6.png" class="esp esp_examenes" alt="Especialidad 3">
+>>>>>>> ba1fb13101d01593417fea933cb23631e3f0d059
                     </div>
                 </div>
             </div>
@@ -30,6 +46,11 @@
     </main>
 
 <?php
+<<<<<<< HEAD
     include('./includes/templates/footer.php')
+=======
+   
+    include("includes/templates/footer.php");
+>>>>>>> ba1fb13101d01593417fea933cb23631e3f0d059
 ?>
 
