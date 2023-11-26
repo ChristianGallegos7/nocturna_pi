@@ -7,6 +7,11 @@
     <title>CITAS MEDICAS</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        .cuenta:hover{
+            color: white;
+        }
+    </style>
 </head>
 
 <body class="animate__animated animate__fadeIn">
@@ -14,7 +19,7 @@
     <header class="header__section" id="header">
         <div class="nav__container">
             <nav class="nav animate__animated animate__fadeInDown">
-                <img class="logo animate__animated animate__fadeInLeft" src="/images/logo.png" alt="">
+                <img class="logo animate__animated animate__fadeInLeft" src="./build/images/logo.png" alt="ayudae">
                 <ul class="nav__list inicio animate__animated animate__fadeIn">
                     <li>
                         <a class="center" href="#header">Inicio</a>
@@ -36,7 +41,7 @@
         </div>
         <div class="header__info">
             <div class="header__image">
-                <img src="/images/img-1.png" alt="">
+                <img src="./build/images/img-1.png" alt="">
             </div>
             <div class="header__text">
                 <h1>CITAS MEDICAS</h1>
