@@ -15,7 +15,9 @@
     <header class="" id="header">
         <div class="">
             <nav class="back">
-                <img class="logo animate__animated animate__fadeInLeft" src="../build/images/logo.png" alt="LOGO">
+                <!-- <img class="logo animate__animated animate__fadeInLeft" src="../build/images/logo.png" alt="LOGO"> -->
+                <img src="http://localhost/dashboard/nocturna_pi/build/images/logo.png" alt="LOGO"> 
+                <!-- <img src="" alt="LOGO"> -->
             </nav>
         </div>
     </header>

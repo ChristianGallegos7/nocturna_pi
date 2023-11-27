@@ -1,5 +1,5 @@
 <?php 
-    include("../../includes/templates/admin/header.php");
+    include("../templates/header.php");
 ?>
 
 <style>
@@ -14,5 +14,5 @@
 
 
 <?php 
-    include("../../includes/templates/admin/footer.php");
+    include("../templates/footer.php");
 ?> 
