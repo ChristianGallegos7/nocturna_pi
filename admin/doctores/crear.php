@@ -1,12 +1,6 @@
 <?php 
-    include("../templates/header.php");
+    include("../../includes/templates/header.php")
 ?>
-
-<style>
-    .contenedor {
-        height: 100vh;
-    }
-</style>
 
 <main class="contenedor">
     <h1>crear admin</h1>
