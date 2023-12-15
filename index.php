@@ -1,5 +1,5 @@
 <?php 
-     include("includes/templates/header.php");
+     include "./includes/templates/header.php";
 ?>
 
     <main class="main__section" id="main" class="animate__animated animate__fadeIn">
@@ -30,6 +30,6 @@
     </main>
 
 <?php
-    include("includes/templates/footer.php");
+    include "includes/templates/footer.php";
 ?>
 

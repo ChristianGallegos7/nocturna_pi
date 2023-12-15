@@ -1,0 +1,14 @@
+{
+    "name": "kodzer4/nocturna_pi",
+    "autoload": {
+        "psr-4": {
+            "App\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christian Gallegos"
+        }
+    ],
+    "require": {}
+}
