@@ -487,3 +487,30 @@ a {
 .footer h3 {
   margin: 0;
 }
+
+main h1 {
+  text-align: center;
+}
+
+.formulario {
+  width: 80%;
+  margin: auto;
+}
+.formulario legend {
+  font-weight: 700;
+}
+.formulario div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.btn-verde {
+  background-color: #07c4b4;
+  border: none;
+  padding: 1.5rem;
+  color: #ffffff;
+  border-radius: 1rem;
+  font-weight: 700;
+}

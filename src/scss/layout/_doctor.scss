@@ -1,0 +1,35 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+
+main{
+    h1{
+
+        text-align: center;
+    }
+}
+.formulario{
+    width: 80%;
+    margin: auto;
+
+    legend{
+        font-weight: 700;
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+
+        font-weight: 500;
+    }
+}
+
+.btn-verde{
+    background-color: v.$verdeClaro;
+    border: none;
+    padding: 1.5rem;
+    color: v.$blanco;
+    border-radius: 1rem;
+    font-weight: 700;
+}
