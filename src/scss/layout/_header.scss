@@ -1,13 +1,19 @@
 @use "base/variables" as v;
 @use "base/mixins" as m;
 
-
+a{
+    color: v.$blanco;
+}
 
 .header{
     background-color: v.$verde;
     height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+a{
+    font-weight: 700;
 }
 
 
@@ -23,6 +29,12 @@
             display: flex;
            justify-content: space-evenly;
             width: 30rem;
+
+            a{
+                &:hover{
+                    border-bottom: 2px solid v.$blanco;
+                }
+            }
         }
 
         .derecha{
@@ -41,14 +53,30 @@
   
 }
 
+.header__text{
+    h1{
+        border-bottom: 2px solid v.$verdeOscuro;
+        color: v.$blanco;
+
+    }
+    p{
+        color: v.$blanco;
+        font-weight: 400;
+    }
+}
+.ultimo{
+    margin-bottom: 4rem;
+}
 .boton{
-    background-color: v.$verdeOscuro;
+    background-color: v.$verdeClaro;
+    font-weight: 700;
     padding: 1.5rem 4.5rem;
     color: v.$blanco;
     border-radius: 20rem;
+    border: 2px solid v.$blanco;
 
     &:hover{
-        background-color: v.$verdeClaro;
+        background-color: v.$verdeOscuro;
 
     }
 }

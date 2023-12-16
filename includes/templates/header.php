@@ -44,7 +44,7 @@
             <div class="header__text">
                 <h1>CITAS MEDICAS</h1>
                 <p>Nuestro servicio está disponible en la ciudad de Quito.</p>
-                <p>Para agendar una cita deber crear una cuenta!</p>
+                <p class="ultimo">Para agendar una cita deber crear una cuenta!</p>
                 <a href="" class="boton cuenta">Crear cuenta</a>
             </div>
         </div>

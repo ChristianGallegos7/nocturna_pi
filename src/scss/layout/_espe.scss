@@ -1,0 +1,56 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+
+.main__section{
+    height: 100vh;
+    background-image: url("../../build/img/banner.webp");
+
+    .especialidades__info{
+        padding: 5rem;
+
+        h1{
+            text-align: center;
+        }
+    }
+}
+
+.especialidades{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .especialidades__text{
+        width: 50%;
+        margin-top: 5rem;
+    }
+  
+ 
+    .especialidades__images{
+        margin-top: 5rem;
+
+        width: 50%;
+        display: flex;
+        gap: 3rem;
+        flex-wrap: wrap;
+
+        .fracturas{
+            background-color: v.$verdeClaro;
+        }
+       .corazon,.fracturas,.examenes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        border: 2px solid v.$blanco;
+        border-radius: 1.5rem;
+
+       }
+        
+       .corazon,.examenes{
+        border: 2px solid v.$verde;
+        border-radius: 1.5rem;
+       }
+    }
+}

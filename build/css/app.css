@@ -368,11 +368,19 @@ img {
   display: block;
 }
 
+a {
+  color: #ffffff;
+}
+
 .header {
   background-color: #4cb8b3;
   height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+a {
+  font-weight: 700;
 }
 
 .nav__container {
@@ -388,6 +396,9 @@ img {
   justify-content: space-evenly;
   width: 30rem;
 }
+.nav__container .nav .centro a:hover {
+  border-bottom: 2px solid #ffffff;
+}
 .nav__container .nav .derecha {
   display: flex;
   justify-content: space-between;
@@ -400,12 +411,79 @@ img {
   align-items: center;
 }
 
+.header__text h1 {
+  border-bottom: 2px solid #05635c;
+  color: #ffffff;
+}
+.header__text p {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.ultimo {
+  margin-bottom: 4rem;
+}
+
 .boton {
-  background-color: #05635c;
+  background-color: #07c4b4;
+  font-weight: 700;
   padding: 1.5rem 4.5rem;
   color: #ffffff;
   border-radius: 20rem;
+  border: 2px solid #ffffff;
 }
 .boton:hover {
-  background-color: #13E5D3;
+  background-color: #05635c;
+}
+
+.main__section {
+  height: 100vh;
+  background-image: url("../../build/img/banner.webp");
+}
+.main__section .especialidades__info {
+  padding: 5rem;
+}
+.main__section .especialidades__info h1 {
+  text-align: center;
+}
+
+.especialidades {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.especialidades .especialidades__text {
+  width: 50%;
+  margin-top: 5rem;
+}
+.especialidades .especialidades__images {
+  margin-top: 5rem;
+  width: 50%;
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.especialidades .especialidades__images .fracturas {
+  background-color: #07c4b4;
+}
+.especialidades .especialidades__images .corazon, .especialidades .especialidades__images .fracturas, .especialidades .especialidades__images .examenes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border: 2px solid #ffffff;
+  border-radius: 1.5rem;
+}
+.especialidades .especialidades__images .corazon, .especialidades .especialidades__images .examenes {
+  border: 2px solid #4cb8b3;
+  border-radius: 1.5rem;
+}
+
+.footer {
+  background-color: #07c4b4;
+  padding: 1rem;
+  text-align: center;
+}
+.footer h3 {
+  margin: 0;
 }
